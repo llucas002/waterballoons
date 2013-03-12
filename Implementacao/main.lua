@@ -33,6 +33,25 @@ end
 
 
 
+--> add o ballon no stagio e posicionar
+local balloon = display.newImage ("ExBalao.png")
+balloon.x = display.contentWidth/2  -100
+physics.addBody(balloon, {bounce =0.5, radius = 35, friction = 1.0})
+
+--> add o ballon no stagio e posicionar
+local balloon2 = display.newImage ("ExBalao.png")
+balloon2.x = display.contentWidth/2 -105
+physics.addBody(balloon2, {bounce =0.6, radius = 35, friction = 1.0})
+
+--> add o ballon no stagio e posicionar
+local balloon3 = display.newImage ("ExBalao.png")
+balloon3.x = display.contentWidth/2 +105
+physics.addBody(balloon3, {bounce =0.7, radius = 35, friction = 1.0})
+
+--> add o ballon no stagio e posicionar
+local balloon4 = display.newImage ("ExBalao.png")
+balloon4.x = display.contentWidth/2 +110
+physics.addBody(balloon4, {bounce =0.8, radius = 35, friction = 1.0})
 
 
 
